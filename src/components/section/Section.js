@@ -12,23 +12,23 @@ import LastSection from "./LastSection";
 export class Section extends Component {
   render() {
     return (
+<>
+        <HeaderSection />
 
-        <HeaderSection />,
+        <CategorySection />
 
-        <CategorySection />,
+        <MiddleSection />
 
-        <MiddleSection />,
+        <CategorySection2 />
 
-        <CategorySection2 />,
+        <MiddleSection2/>
 
-        <MiddleSection2/>,
+        <LocationBar/>
 
-        <LocationBar/>,
-
-        <FlexContainer/>,
+        <FlexContainer/>
 
         <LastSection/>
-
+</>
     );
   }
 }

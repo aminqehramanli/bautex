@@ -6,7 +6,7 @@ import img8 from "../../images/инст 1.svg"
 export class Footer extends Component {
   render() {
     return (
-      <footer>
+<footer>
         <p>www.bautexdesign.ru</p>
         <img src={img7} alt=""/>
         <NavLink href="https://www.instagram.com/"><img src={img8} alt="#"/>

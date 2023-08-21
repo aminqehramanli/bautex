@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
-
 export class MiddleSection extends Component {
+
+
   render() {
     return (
         <div class="middle_section">
         <div class="container">
           <div class="slider_arrows">
-            <svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg" >
               <path d="M0 15L25.5 0.277569V29.7224L0 15Z" fill="white" />
             </svg>
-            <svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg" >
               <path d="M26 15L0.5 29.7224L0.5 0.277568L26 15Z" fill="#4A614D" />
             </svg>
           </div>

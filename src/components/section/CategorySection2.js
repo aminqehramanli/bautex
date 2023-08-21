@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import img6 from "../../images/3 1.jpg"
 
 export class CategorySection2 extends Component {
   render() {
@@ -7,7 +8,7 @@ export class CategorySection2 extends Component {
         <div class="category_section2">
   
           <div class="colorcards">
-            <img src="./images/3 1.jpg" alt="#"/>
+            <img src={img6} alt="#"/>
           </div>
   
           <div class="grid_container2">

@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
-import img from '../../images/лого_дизайн 1.png'
-export class StartLeft extends Component {
+import img10 from "../../bautexhtml2/images2/лого_дизайн 1.png"
+
+export class StartLeft2 extends Component {
   render() {
     return (
         <div class="startleft">
-        <img src={img} alt="none" />
+        <img src={img10} alt="none" />
         <p>Жаккардовые обои из кварцевой нити под покраску</p>
-      </div>
+    </div>
     )
   }
 }
 
-export default StartLeft
+export default StartLeft2
